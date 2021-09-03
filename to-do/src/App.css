@@ -1,0 +1,129 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container
+{
+  background: lightseagreen;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper
+{
+  background: #12343b;
+  min-width: 450px;
+  min-height: 550px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.header h1
+{
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.task-input
+{
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ccc;
+  background: #000;
+  border: 1px solid orange;
+  border-radius: 10px;
+}
+
+
+
+.button-add
+{
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background: #00f300;
+  cursor: pointer;
+}
+
+.list-item
+{
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  max-height: 40px;
+}
+
+.button-complete,
+.button-delete,
+.button-edit
+{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+.button-complete
+{
+  color: lightseagreen;
+  margin-right: 10px;
+}
+
+.button-edit
+{
+  color: #ff6c;
+  margin-right: 10px;
+}
+
+.button-delete
+{
+  color: #ff6c6c;
+}
+
+.complete
+{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #ff6c6c;
+  opacity: 0.6;
+}
+
+/* .line-through
+{
+  text-decoration: line-through;
+} */
+
+.list 
+{
+  width: 220xp;
+  background: #12343b;
+  border: none;
+  color: #ccc;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+
+input:focus,
+button:focus
+{
+  outline: none;
+}
